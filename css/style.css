@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: #f9f9f9;
+  justify-content: space-between;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(242, 17, 54);
+  font-weight: 600;
+}
+
+ul li a:hover {
+  color: #000;
+}
+
+
+#navbar .container .menu .hamburger img{
+    width: 2em;
+
+}
+
+
+#navbar .container .text-right .sidebar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  width: 12rem;
+  flex-direction: column;
+  z-index: 9999;
+  display: none;
+}
+
+#navbar .container .text-right .sidebar li a {
+  width: 100%;
+  padding: 0.5em 30%;
+  /* background-color: #fff; */
+}
+
+#navbar .container .text-right .sidebar li {
+  margin: 0.5em 0;
+}
+
+.area {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 45vh;
+  /* border-radius: 10px; */
+  /* color: 2px solid white; */
+  background-image: url(../images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg);
+  /* background-size: center; */
+  background-position: cover;
+  background-repeat: no-repeat;
+  /* backface-visibility: visible; */
+  /* background-image: -moz-linear-gradient(); */
+
+  /* border-radius: 20px; */
+}
+
+form {
+  width: 600px;
+  height: 10vh;
+  display: flex;
+  background: #fff;
+  margin-top: 10px;
+  background: 10px;
+  padding: 10px 10px;
+}
+
+form input {
+  display: flex;
+  padding: 1em;
+  width: 100%;
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  /* padding: 10px 10px 5px 10px 0; */
+  /* background-image:url(./image/delicious-lobster-gourmet) ; */
+}
+
+form button {
+  color: white;
+  cursor: pointer;
+  border: black;
+  /* outline: none; */
+  width: 200px;
+  margin-left: 5px;
+  padding-left: 10px 10px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+/* .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.food-items {
+  padding: 0px 0px 5rem 0px;
+  /* background-color: aqua; */
+}
+
+.food-item {
+  /* padding: 0px 0px 5rem 0px; */
+  /* margin: 0 10px; */
+  width: 30%;
+  height: 100%;
+}
+
+.food-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+.various-foods img {
+  width: 100%;
+  /* height: 10vh; */
+  border-radius: 20px;
+  /* min-width: 50%; */
+  /* display: flex; */
+  /* justify-content:center; */
+  /* align-items: center; */
+}
+
+.various-foods {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 30%;
+  position: relative;
+}
+
+.image h1 {
+  position: absolute;
+  left: 6rem;
+  bottom: 1rem;
+  color: white;
+}
+
+/* food menu section starts here  */
+
+#delicious .delicious {
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.delicious-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.variety {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.items {
+  background-color: palegoldenrod;
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.items-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: relative;
+  top: 2rem;
+}
+
+.items-details {
+  margin-left: 20px;
+  position: relative;
+}
+
+.order button {
+  color: white;
+  background-color: coral;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order button a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.order button a:hover {
+  color: burlywood;
+}
+
+.link p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.link a {
+  text-decoration: none;
+  color: coral;
+}
+
+.link p :hover {
+  color: blue;
+}
+/* food menu section ends here  */
+
+/*logo section starts here*/
+
+.home-page {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.home-page img {
+  width: 50px;
+  height: 59px;
+}
+
+.logo h4 {
+  margin: 20px;
+}
+
+.prep {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/*logo section ends here*/
+
+/* media queries start here */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    #navbar .container  .menu ul {
+        display: none;
+    }
+
+    .various-items .various-foods .image h1{
+        left: 1rem;    
+}
+
+.area button {
+  width:100% ;
+  margin-left: 0px;
+  padding: 0px opx;
+}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    #navbar .container  .menu ul {
+        display: none;
+    }
+    .various-items .various-foods .image h1{
+        left: 2rem;    
+}
+.food-items .various-foods{
+    flex-direction: column;
+    width: 100%;
+    ;
+    
+
+
+}
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+} /* 
+  ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+} /* 
+  ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #navbar .container .menu .hamburger {
+        display: none;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #navbar .container .menu .hamburger {
+        display: none;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #navbar .container .menu .hamburger {
+        display: none;
+    }
+}
+
+/* 
+  ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+    #navbar .container .menu .hamburger {
+        display: none;
+
+  }
+}
+
+/* media queries ends here */

@@ -1,0 +1,179 @@
+#navbar{
+    background-color: #f9f9f9;
+    justify-content: space-between;
+}
+    
+
+
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(242, 17, 54);
+    font-weight: 600;
+}
+
+ul li a:hover{
+    color: #000;
+}
+
+/*order section starts here*/
+
+.group-title{
+    text-align: center;
+}
+
+.card{
+    background-color: aqua;
+    max-width: 40em;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    margin-right: 400px;
+    height: 50vh;
+}
+
+.card-head{
+       text-align: center;
+       /* width: 100%; */
+       /* position: absolute; */
+       
+       
+
+
+
+    
+}
+
+.confirm-image img{
+    width: 20%;
+    height: 90px;
+    margin-left: 200px;
+    margin-bottom: -5px;
+}
+
+
+.header{
+    /* text-align: center; */
+    display: flex;
+    justify-content: first-start;
+    margin-left: 110px;
+    margin-bottom: -5px;
+    font-size: 10px;
+}
+
+
+
+
+.book{
+    text-align: center;
+    margin-bottom: auto;
+
+}
+
+.book h4{
+    color:red;
+    margin-bottom: -20px;
+    margin-left: 21px;
+    margin-top: 10px;
+    
+}
+
+.book h1{
+    margin-left: -5px;
+    margin-bottom: -10px;
+    margin-top:7px;
+}
+
+.content{
+    /* width: 100%; */
+    margin-left: 25%;
+}
+
+.content form{
+    margin-left: -2px;
+
+}
+
+
+/*order section ends here*/
+
+
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    background-color: aqua;
+} */
+
+.container{
+    background-color: aqua;
+    /* width: 100%; */
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.container head {
+    
+}
+
+
+.confirm{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.table{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.buy  a{
+    text-decoration: none;
+    /* background-color:#f9f9f9; */
+    border: none;
+}
+
+.buy {
+    background-color:red;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    align-content: center;
+    margin-left: 150px;
+}
+
+.buy a:hover{
+    color: aqua;
+}
+
+.proceed form input{
+    width: 100%;
+    height: 100px;
+
+}
+
+
